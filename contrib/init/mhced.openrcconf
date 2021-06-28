@@ -1,0 +1,26 @@
+# /etc/conf.d/mhced: config file for /etc/init.d/mhced
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mhce/mhce.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mhced"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mhced.pid"
+
+# Where to write mhced data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mhced"
+
+# User and group to own mhced process
+#BITCOIND_USER="mhce"
+#BITCOIND_GROUP="mhce"
+
+# Path to mhced executable
+#BITCOIND_BIN="/usr/bin/mhced"
+
+# Nice value to run mhced under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

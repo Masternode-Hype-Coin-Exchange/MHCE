@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MasternodeHypeCoinExchange
+Comment=MasternodeHypeCoinExchange P2P Cryptocurrency
+Comment[fr]=MasternodeHypeCoinExchange, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MasternodeHypeCoinExchange, eşten eşe kriptografik sanal para birimi
+Exec=mhce-qt %u
+Terminal=false
+Type=Application
+Icon=mhce128
+MimeType=x-scheme-handler/mhce;
+Categories=Office;Finance;
